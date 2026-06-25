@@ -1,0 +1,15 @@
+CPU: AMD Ryzen Threadripper PRO 9995WX
+Motherboard: ROG or ASRock WRX90E
+GPU: NVIDIA GeForce RTX 5090
+RAM: 256GB+ DDR5-6400 EEC
+Storage: 8TB+ PCIe Gen5 NVMe RAID
+Cooling: Custom liquid cooling loop
+PSU: 1600W+ Platinum/Titanium
+Case: Spacious high-airflow or showpiece
+1.CPU: AMD Ryzen 9 9950X3D
+2.GPU: Nvidia RTX 5090
+3.RAM: 64GB DDR5
+4.Storage: 8TB SSD
+5.Cooling: Custom chassis, 200W CPU / 600W GPU continuous draw
+6.Weight: 76.1 lbs
+The best build ever in the whole world
