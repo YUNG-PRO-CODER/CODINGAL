@@ -8,6 +8,4 @@
            what is velocity and speed
            
            velocity - rate of displacement
-           speed - rate of distance 
-           
-           
+           speed - rate of distance       
