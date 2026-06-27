@@ -1,0 +1,49 @@
+1. Motion: Change in the position of an object with respect to time.
+
+2. Distance vs Displacement
+- Distance: Total path travelled (scalar).
+- Displacement: Shortest straight-line distance from start to end (vector).
+
+3. Speed
+Speed = Distance / Time
+SI Unit: m/s
+Average Speed = Total Distance / Total Time
+
+4. Velocity
+Velocity = Displacement / Time
+SI Unit: m/s
+
+5. Acceleration
+Acceleration = (Final Velocity - Initial Velocity) / Time
+SI Unit: m/s²
+
+6. Equations of Motion
+v = u + at
+s = ut + 1/2 at²
+v² - u² = 2as
+
+7. Uniform Motion
+Equal distances in equal intervals of time.
+
+8. Non-uniform Motion
+Unequal distances in equal intervals of time.
+
+9. Graphs
+- Slope of Distance-Time graph = Speed
+- Slope of Velocity-Time graph = Acceleration
+- Area under Velocity-Time graph = Displacement
+
+10. SI Units
+Distance: metre (m)
+Time: second (s)
+Speed: m/s
+Velocity: m/s
+Acceleration: m/s²
+
+11. Quick Revision
+- Motion = Change in position
+- Distance = Total path
+- Displacement = Shortest path
+- Speed = Distance/Time
+- Velocity = Displacement/Time
+- Acceleration = Change in velocity/Time
