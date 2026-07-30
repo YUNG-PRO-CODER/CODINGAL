@@ -8,7 +8,7 @@ growth_spurt = 0.5
 month = 7
 
 def pattern() -> float:
-    return height + (growth_spurt * month)
+    return height + growth_spurt * month
     
 def loop_pattern() -> float:
     a = 0
