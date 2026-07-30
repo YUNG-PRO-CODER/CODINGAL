@@ -13,7 +13,7 @@ def pattern() -> float:
 def loop_pattern() -> float:
     a = 0
     
-    for _ in range(7):
+    for _ in range(month):
         a += growth_spurt
     return height + a
 
@@ -21,7 +21,7 @@ def nested_loop() -> float:
     
     z = 0
     
-    for _ in range(7):
+    for _ in range(month):
         for _ in range(1):
             z += growth_spurt
     return height + z
