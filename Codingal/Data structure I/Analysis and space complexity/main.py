@@ -17,6 +17,7 @@ s = 0
 for i in range(n):
     s += 1
     if marks[i] == target:
+        print("mark found ", target)
         print("Index ", i, " steps ", s, "O(n)")
         break
 print()    
