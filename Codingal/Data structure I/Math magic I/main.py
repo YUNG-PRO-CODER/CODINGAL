@@ -23,9 +23,7 @@ except ValueError:
 """factors"""
 
 
-try:
-        
-    
+try:     
     def print_factors(num):
             
             for i in range(1, num + 1):
