@@ -8,10 +8,12 @@ def main(n, q) -> int:
     elif o == 0:
         return("the value is 0")
 
-try:
-    n = int(input("Type a number: "))
-    q = int(input("Type another number: "))
-    print(main(n,q))
-    
-except ValueError:
-    print("try again")
+
+while True:
+    try:
+        n = int(input("Type a number: "))
+        q = int(input("Type another number: "))
+        print(main(n,q))
+        
+    except ValueError:
+        print("try again")
