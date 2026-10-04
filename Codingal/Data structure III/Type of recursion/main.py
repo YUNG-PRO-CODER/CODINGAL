@@ -1,11 +1,10 @@
 # tail recusion 
 
-def b(n):
+def b(n, result=1):
     if n == 1:
-        return 1
-    else:
-        return n * b(n - 1)
-        
+        return result
+    return b(n - 1, result * n)
+
 print(b(4))
 
 # non - tail recursion
@@ -13,6 +12,7 @@ print(b(4))
 def m(n):
     if n == 1:
         return 1
+
     print(n)
     return n * m(n - 1)
 
@@ -24,8 +24,10 @@ print(m(4))
 def q(n):
     if n == 1:
         return 1
-    else:
-        return q(2) + q(2)
-print()
-    
+    return q(n - 1) + q(n - 1)
+
+print(q(4))
+
+
+
 
