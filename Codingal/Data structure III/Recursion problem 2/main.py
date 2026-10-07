@@ -33,7 +33,6 @@ def count_paren(n, l=0, r=0):
 
 
 n = int(input("Enter number of pairs: "))
-
 print("Number of valid arrangements:", count_paren(n))
 
 
