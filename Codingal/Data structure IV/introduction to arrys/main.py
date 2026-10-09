@@ -29,3 +29,26 @@ print("Size:", len(numbers))
 
 print("Mean:", mean(numbers))
 print("Median:", median(numbers))
+
+
+#MinArrayMax
+
+import array as arr
+
+def MaxArrayMin(a):
+    print("Max:", max(a))
+    print("Min:", min(a))
+
+a = arr.array('i', [2, 4, 6 , 1, 8, 3])
+
+MaxArrayMin(a)
+
+#Second largest element
+
+import array as arr
+
+z = arr.array('i', [2, 4, 6, 7 , 1, 8, 3])
+z = sorted(z)
+
+print(z[-2])
+
