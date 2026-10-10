@@ -6,6 +6,6 @@ j = len(x) - 1
 while s <= j:
     x[s], x[j] = x[j], x[s]
     s = s + 1
-    j = j - 1
+    j = j + 1
     
 print(x)
