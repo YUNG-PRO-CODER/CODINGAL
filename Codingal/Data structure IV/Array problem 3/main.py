@@ -32,5 +32,7 @@ def move_zeros(num):
     
         
 print(move_zeros([1, 0, 0, 5, 0, 3, 2]))
+
+# 
             
         
