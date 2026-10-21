@@ -36,6 +36,7 @@ def maxSubarraySumCircular(nums):
         min_sum = min(min_sum, cur_min)
 
     if max_sum < 0:
+        
         return max_sum
 
     return max(max_sum, total - min_sum)
