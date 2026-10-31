@@ -26,3 +26,31 @@ result = eq_mid(n)
 print("Actual result:", result)
 print()
 print("Your guess:", guess)
+
+
+def win_sum(arr, n):
+    size = len(arr)
+
+    for i in range(size - n + 1):
+        curr_sum = 0
+
+        for j in range(i, i + n):
+            curr_sum += arr[j]
+
+        if curr_sum == n:
+            return i
+
+    return -1
+
+
+arr = list(map(int, input("Enter array elements: ").split()))
+n = int(input("Enter n: "))
+
+guess = int(input("Predict the result of win_sum(arr, n): "))
+result = win_sum(arr, n)
+
+print("Array:", arr)
+print("Actual result:", result)
+print("Your guess:", guess)
+
+
